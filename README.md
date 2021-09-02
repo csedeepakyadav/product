@@ -1,16 +1,30 @@
-# product
+# Product - Mobile Applicatiom ( Flutter )
+(Documentation)
 
-A new Flutter project.
+## Details
 
-## Getting Started
+* Architecture used MVVM with the help of provider package.
+* For State management Provider Package is used.
+* For Http request dio package is used.
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+## Project Flow and In-depth Technical Details
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+* App starts then navigates to splash screen, here hold here for 2 seconds, then Navigates to home screen.
+* At home screen it will load category data list then list will populate into dropdown, now after filling all required fields and selecting images hit the save button it will save the data to server.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Validations
+
+* Data validation.
+* Http response and request validation.
+* Form validation.
+* Internet connectivity validation.
+* Exception handling.
+
+## Others
+
+* Sound Null-Safety
+
+## Test
+
+* Tested with android.
