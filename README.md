@@ -28,3 +28,7 @@
 ## Test
 
 * Tested with android.
+
+## Download APK ( Android )
+
+https://www.dropbox.com/s/8ic8gzvwugzf6ms/product_app.apk
